@@ -1,59 +1,59 @@
 {
   "tcp_alloc": {
     "allowed": 6,
-    "claimed": 1,
-    "desired": 1
+    "claimed": 0,
+    "desired": 0
   },
   "tunnels": [
     {
       "active": true,
       "alloc": {
         "data": {
-          "assigned_domain": "r-favorite.gl.joinmc.link",
-          "assigned_srv": "r-favorite.gl.joinmc.link",
+          "assigned_domain": "fair-gp.gl.at.ply.gg",
+          "assigned_srv": null,
           "assignment": {
             "type": "shared-ip"
           },
-          "id": "98de6267-a479-4d4d-818d-96091989773b",
+          "id": "0e3140ff-697a-43e1-9bfa-0b24c457afc1",
           "ip_hostname": "21.ip.gl.ply.gg",
           "ip_type": "both",
-          "port_end": 7103,
-          "port_start": 7102,
+          "port_end": 3329,
+          "port_start": 3328,
           "region": "global",
           "static_ip4": "147.185.221.21",
           "tunnel_ip": "2602:fbaf:0:1::15"
         },
         "status": "allocated"
       },
-      "created_at": "2024-08-06T05:08:05.713244Z",
+      "created_at": "2024-08-08T05:55:16.060381Z",
       "disabled_reason": null,
       "domain": null,
       "expire_notice": null,
       "firewall_id": null,
-      "id": "2aae3768-034c-45bd-a70b-5535e23d6401",
-      "name": "Minecraft Java",
+      "id": "d0c27d0e-1fb1-4158-9e3c-72a1d0b0e481",
+      "name": "unnamed",
       "origin": {
         "data": {
-          "agent_id": "fee34d2c-ad9c-4703-a418-a32b473301d5",
-          "agent_name": "from-key-9733",
+          "agent_id": "6662021b-000a-4d66-842d-6714322f9dcc",
+          "agent_name": "from-key-4db6",
           "local_ip": "127.0.0.1",
-          "local_port": 25565
+          "local_port": 3328
         },
         "type": "agent"
       },
       "port_count": 1,
-      "port_type": "tcp",
+      "port_type": "udp",
       "ratelimit": {
         "bytes_per_second": null,
         "packets_per_second": null
       },
       "region": "global",
-      "tunnel_type": "minecraft-java"
+      "tunnel_type": null
     }
   ],
   "udp_alloc": {
     "allowed": 6,
-    "claimed": 0,
-    "desired": 0
+    "claimed": 1,
+    "desired": 1
   }
 }
